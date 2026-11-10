@@ -248,6 +248,9 @@ body{
     .instruction-text , .ingredient-text , .tip-text{
         font-size:0.6rem;
     }
+    #ingredientsList{
+        height: 340px;
+    }
 }
 .nav-tabs .nav-link:hover {
     border: none;
