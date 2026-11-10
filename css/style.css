@@ -108,7 +108,7 @@ body{
     border-bottom-left-radius: 32px;
     position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .main-image {
         height:400px;
         border-radius: 32px 32px 0 0;
@@ -237,13 +237,16 @@ body{
 .nav-tabs .nav-link i{
     padding-right: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .nav-tabs .nav-link {
         font-size: 0.6rem; 
         padding: 8px 2px;   
     }
     .nav-tabs .nav-link i {
         font-size: 0.9rem;
+    }
+    .instruction-text , .ingredient-text , .tip-text{
+        font-size:0.6rem;
     }
 }
 .nav-tabs .nav-link:hover {
